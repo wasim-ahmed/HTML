@@ -1,0 +1,19 @@
+body{
+background-color : powderblue;
+}
+
+h1{
+color : red;
+}
+
+p{
+	color : blue;
+}
+
+#p01{
+color : green;
+}
+
+p.error{
+color : orange;
+}

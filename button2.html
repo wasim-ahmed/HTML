@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+<title>
+button 2 
+</title>
+<meta charset = "UTF-8">
+</head>
+<body>
+<script>
+function myFunction(args)
+{
+	var pic;
+	if (args == 0)
+	{
+		pic ="LightOff.jpg"
+	}
+	else
+	{
+		pic = "LightOn.jpg"
+	}
+	
+	document.getElementById("myimage").src = pic;
+}
+
+}
+</script>
+
+<img id = "myimage" src ="LightOff.jpg" width = "100" height = "100" >
+
+
+<button type = "button" onclick = "myFunction(1)">
+Light On
+</button>
+<button type = "button" onclick = "myFunction(0)">
+Light Off
+</button>
+
+</body>
+</html>
+

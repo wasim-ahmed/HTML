@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+
+<head>
+	<title>
+		FORM
+	</title>
+<meta charset = "UTF-8">
+<style>
+#Jumbo
+{
+	background-color : powderblue;
+
+}
+
+</style>
+
+</head>
+
+<body>
+	<form action = "/action_page.php" target = "_blank" method = "post">
+	<fieldset>
+	<legend>Personal Information </legend>
+		First Name:
+		<input type = "text" name = "First Name" value = "Chandu"><br>
+		Last Name:
+		<input type = "text" name = "Last Name" value = "Chaiwala"><br>
+		
+		<input type = "radio" name = "gender" value = "Male" Checked> Male <br>
+		<input type = "radio" name = "gender" value = "Female"> Female <br>
+		
+		<input type = "submit" value = "Submit">
+	</fieldset>
+	
+	<h3>Select your desired Car	</h3>
+	<select id = "Jumbo" name = "Cars" size = 1 <!--multiple-->>
+		<option value = "Ford EcoSport">Ford EcoSport	</option>
+		<option value = "BMW X3" selected>	BMW X3	</option>
+		<option value = "Audi Q3">	Audi Q3</option>
+		<option value = "volkswagen Polo">	volkswagen Polo</option>
+		<option value = "Tesla model S">	Tesla Model S</option>
+	</select>
+	
+	<br>
+	
+	<textarea name = "message" rows = "8" col = "15">
+		This is the Disclaimer area!
+	</textarea>
+	
+	<br>
+	
+	<button type = "button" onclick = "alert('Howdy')">
+		Click Me !
+	</button>
+	
+	<br>
+	
+	<input list = "browsers" name = "browser">
+	<datalist id = "browsers">
+	<option value = "Google Chrome">
+	<option value = "Internet Explorer">
+	<option value = "Firefox">
+	</datalist>
+	<input type = "Submit">
+	</form>
+</body>
+</html>
